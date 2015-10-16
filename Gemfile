@@ -7,6 +7,9 @@ gem 'rails', '3.2.21'
 
 gem 'mysql2'
 
+#LoadError: Please install the mysql2 adapter: `gem install activerecord-mysql2-adapter` (can't activate mysql2 (~> 0.3.10), already activated mysql2-0.4.1. Make sure all dependencies are added to Gemfile.)
+gem 'activerecord-mysql2-adapter'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

@@ -5,11 +5,8 @@ gem 'rails', '3.2.21'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
-
-#LoadError: Please install the mysql2 adapter: `gem install activerecord-mysql2-adapter` (can't activate mysql2 (~> 0.3.10), already activated mysql2-0.4.1. Make sure all dependencies are added to Gemfile.)
-gem 'activerecord-mysql2-adapter'
-
+#By default 0.4.1 was installed which requires adapter. Fixing to this version solves the problem
+gem 'mysql2', '0.3.14'
 
 # Gems used only for assets and not required
 # in production environments by default.

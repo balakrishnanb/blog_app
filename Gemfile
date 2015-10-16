@@ -22,6 +22,13 @@ end
 
 gem 'jquery-rails'
 
+
+#ExecJS::RuntimeUnavailable: Could not find a JavaScript runtime.
+#http://stackoverflow.com/a/6323518
+gem 'execjs'
+
+gem 'therubyracer'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

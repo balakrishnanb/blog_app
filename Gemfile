@@ -6,7 +6,10 @@ gem 'rails', '3.2.21'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #By default 0.4.1 was installed which requires adapter. Fixing to this version solves the problem
-gem 'mysql2', '0.3.14'
+
+group :development do
+  gem 'mysql2', '0.3.14'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
